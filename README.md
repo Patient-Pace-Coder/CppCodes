@@ -38,8 +38,6 @@ The notes include **code snippets + inline explanations using comments**, making
 * Debugging and best practices
 * Misc practice programs
 
-> Advanced C++ topics are intentionally excluded as they are not yet completed.
-
 ---
 
 ✍️ Learning Approach
@@ -80,10 +78,6 @@ Each file focuses on a specific topic and includes:
 * Example implementations
 * Practice programs
 * Concept explanations via comments
-
-*(Structure may evolve as learning progresses)*
-
----
 
 🚀 Future Plans
 
