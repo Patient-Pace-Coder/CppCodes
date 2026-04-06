@@ -1,33 +1,33 @@
-// # include<iostream>
-// using namespace std;
+# include<iostream>
+using namespace std;
 
-// // void doSomething();
+// void doSomething();
 
-// void doSomething(){
-//     cout << "Hello There!!";
-// }
+void doSomething(){
+    cout << "Hello There!!";
+}
 
-// namespace Foo {
-//     void doSomething(){
-//         cout << "There" << endl;
-//     }
-// }
+namespace Foo {
+    void doSomething(){
+        cout << "There" << endl;
+    }
+}
 
-// namespace Goo{
-//     void doSomething(){
-//         cout << "Hello" << endl;
-//         Foo :: doSomething(); // calls doSomething of Foo
-//         :: doSomething(); // calls doSomething of global scope
-//     }
+namespace Goo{
+    void doSomething(){
+        cout << "Hello" << endl;
+        Foo :: doSomething(); // calls doSomething of Foo
+        :: doSomething(); // calls doSomething of global scope
+    }
 
 
-// }
+}
 
-// int main(){
+int main(){
 
-//     Goo :: doSomething(); // calls doSomething of Goo scope
-//     Foo :: doSomething(); // calls doSomething of Foo scope
+    Goo :: doSomething(); // calls doSomething of Goo scope
+    Foo :: doSomething(); // calls doSomething of Foo scope
 
-//     :: doSomething(); // calls doSomething of global scope
-// }
+    :: doSomething(); // calls doSomething of global scope
+}
 
